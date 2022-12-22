@@ -8,22 +8,47 @@
     <meta name="keyword" content="Cemal Sezer">
     <meta name ="description" content="Personal Web Page">  
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/main.css">
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--js scroolrevealjs-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>  ScrollReveal({ reset: true });</script>
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section>
-        <main class="container">
-            <div class="info-me">
-                <img src="img/cemalsezer_resume_photo.jpg"  alt="cemalsezer">
+    <div class="nav-bar">
+        <span class="navbar-span">
+            <img src="img/cemalsezer_resume_photo.jpg"  alt="cemalsezer" class="navbar-img">
+                <ul>
+                    <li><a href="#base-sec" class="nav-link">BASE</a></li>
+                    <li><a href="#experience-sec" class="nav-link">EXPERIENCE</a></li>
+                    <li><a href="#education-sec"class="nav-link">EDUCATION</a></li>
+                    <li><a href="#projects-sec"class="nav-link">PROJECTS</a></li>
+                </ul>
+        </span>   
+    </div>
+    <div class="nav-bar-second">
+       <span class="second-span">
+        <ul class="second-link">
+            <li><a href="#base-sec" class="">BASE</a></li>
+            <li><a href="#experience-sec" class="">EXPERIENCE</a></li>
+            <li><a href="#education-sec"class="">EDUCATION</a></li>
+            <li><a href="#projects-sec"class="">PROJECTS</a></li>
+        </ul>
+       </span>   
+    </div>
+        <main class="container  smooth-reveal" id="base-sec">
+            <div class="info-me" >
                 <div class="info-text">
-                    <h1 class="head-text text-center gray-color text-big">Cemal Sezer</h1>
-                    <h2 class="text-center text-med">Frontend Developer | Computer Science Enthusiast</h2>
+                    <h1 class="head-text">Cemal Sezer</h1>
+                    <h2 class="head-descp">Frontend Developer | Computer Science Enthusiast</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, nobis!</p>
                     <p class="social-media">
                         <a href="https://twitter.com/cemalsezerx" target="_blank">
                             <i class="fab fa-twitter"></i>
@@ -37,11 +62,91 @@
                         <a href="https://www.linkedin.com/in/cemal-sezer/" target="_blank">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                   
                     </p>
                 </div>
             </div>
+            <hr><br>
+            <!--EXPERIENCE-->
+            <section class="experience smooth-reveal" id="experience-sec">
+                <header class="text-section">EXPERIENCE</header>
+                <div class="resume-section">
+                    <div class="resume-info">
+                        <h3 class="text-job">Lorem, ipsum dolor.</h3>
+                        <h4 class="text-company">Lorem, ipsum.</h4>
+                        <p>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="resume-date">
+                        <span>January,2022 - March 2022</span>
+                    </div>
+                </div>
+                <br>
+                <div class="resume-section">
+                    <div class="resume-info">
+                        <h3 class="text-job">Lorem, ipsum dolor.</h3>
+                        <h4 class="text-company">Lorem, ipsum.</h4>
+                        <p>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="resume-date">
+                        <span>January,2022 - March 2022</span>
+                    </div>
+                </div>
+                <br>
+                <div class="resume-section">
+                    <div class="resume-info">
+                        <h3 class="text-job">Lorem, ipsum dolor.</h3>
+                        <h4 class="text-company">Lorem, ipsum.</h4>
+                        <p>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="resume-date">
+                        <span>January,2022 - March 2022</span>
+                    </div>
+                </div>
+                <br>
+            </section> <hr><br>
+            <!--EDUCATION-->
+            <section class="education smooth-reveal" id="education-sec">
+                <header class="text-section">EDUCATION</header>
+                <div class="resume-section">
+                    <div class="resume-info">
+                        <h3 class="text-job">Lorem, ipsum dolor.</h3>
+                        <h4 class="text-company">Lorem, ipsum.</h4>
+                        <p>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="resume-date">
+                        <span>January,2022 - March 2022</span>
+                    </div>
+                </div>
+                <br>
+                <div class="resume-section">
+                    <div class="resume-info">
+                        <h3 class="text-job">Lorem, ipsum dolor.</h3>
+                        <h4 class="text-company">Lorem, ipsum.</h4>
+                        <p>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="resume-date">
+                        <span>January,2022 - March 2022</span>
+                    </div>
+                </div>
+                <br>
+            </section><hr><br>
+            <!--PROJECTS-->
+            <section class="projects smooth-reveal" id="projects-sec">
+                <header class="text-section">PROJECTS</header>
+                <div class="resume-section">
+                    <div class="resume-info">
+                        <h3 class="text-job">Lorem, ipsum dolor.</h3>
+                        <h4 class="text-company">Lorem, ipsum.</h4>
+                        <p>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="resume-date">
+                        <span>January,2022 - March 2022</span>
+                    </div>
+                </div>
+                <br>
+            </section><hr><br>
         </main>
-    </section>
+        <script>ScrollReveal().reveal(".smooth-reveal",{delay:250}); </script>
+       
+<script src="js/script.js"></script>
 </body>
 </html>
