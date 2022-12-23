@@ -123,6 +123,11 @@ body{
     }
     a{
         text-decoration: none;
+        color: black;
+    }
+    ul
+    {
+        list-style: square inside url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==');
     }
 @media screen and (max-width:765px) {
     .nav-bar{
