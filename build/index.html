@@ -7,6 +7,7 @@
     <title>Cemal Sezer</title>
     <meta name="keyword" content="Cemal Sezer">
     <meta name ="description" content="Personal Web Page">  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
@@ -33,16 +34,21 @@
                 </ul>
         </span>   
     </div>
-    <div class="nav-bar-second">
-       <span class="second-span">
+    <!-- <div class="nav-bar-second"> -->
+       <!-- <span class="second-span"> -->
         <ul class="second-link">
-            <li><a href="#base-sec" class="">BASE</a></li>
-            <li><a href="#experience-sec" class="">EXPERIENCE</a></li>
-            <li><a href="#education-sec"class="">EDUCATION</a></li>
-            <li><a href="#projects-sec"class="">PROJECTS</a></li>
+            <li><a href="#base-sec" class="menuItem">BASE</a></li>
+            <li><a href="#experience-sec" class="menuItem">EXPERIENCE</a></li>
+            <li><a href="#education-sec"class="menuItem">EDUCATION</a></li>
+            <li><a href="#projects-sec"class="menuItem">PROJECTS</a></li>
         </ul>
-       </span>   
-    </div>
+        <button class="hamburger">
+            <!-- material icons https://material.io/resources/icons/ -->
+            <i class="menuIcon material-icons">menu</i>
+            <i class="closeIcon material-icons">close</i>
+          </button>
+       <!-- </span>    -->
+    <!-- </div> -->
         <main class="container" id="base-sec">
             <div class="info-me smooth-reveal" >
                 <div class="info-text">
@@ -193,5 +199,6 @@
         <script>ScrollReveal().reveal(".smooth-reveal",{delay:250}); </script>
        
 <script src="js/script.js"></script>
+<script src="js/hamburger.js"></script>
 </body>
 </html>

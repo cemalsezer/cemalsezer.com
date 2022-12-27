@@ -14,6 +14,7 @@ body{
     .nav-bar-second{
         display: none;
     }
+   
     .nav-bar{
         position: fixed;
         min-width:290px ;
@@ -148,7 +149,7 @@ body{
     body{
         position: relative;
     }
-.nav-bar-second{
+/* .nav-bar-second{
     display: flex;
     align-items: center; 
     min-height: 70px;
@@ -158,6 +159,48 @@ body{
     right: 0;
     left: 0;
     background-color: #181D31;
+} */
+
+.second-link{
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    list-style: none;
+    padding-top: 4rem;
+    text-align: center;
+  
+
+}
+.showMenu {
+    transform: translateY(0);
+  }
+
+  .closeIcon {
+    display: none;
+  }
+.hamburger{
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  padding: 4px;
+  border: black solid 1px;
+  background:#181D31;
+  cursor: pointer;
+}
+.menuItem{
+    color:#E6DDC4;
+    display: block;
+    padding: 20px;
+}
+.menuItem:hover{
+    color: aliceblue;
 }
 .second-span{
     align-items: center;
