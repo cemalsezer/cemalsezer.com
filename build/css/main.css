@@ -55,7 +55,6 @@ body{
     
     /*container*/
     .container{
-       
         margin-left: 310px;
         padding: 20px;
         margin-bottom: 110px;
@@ -174,8 +173,6 @@ body{
     list-style: none;
     padding-top: 4rem;
     text-align: center;
-  
-
 }
 .showMenu {
     transform: translateY(0);
